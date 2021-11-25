@@ -1,9 +1,9 @@
 {
-  "name": "npm-lib-template",
-  "version": "1.0.0",
-  "description": "npm-lib-template",
+  "name": "mock-with-proxy",
+  "version": "1.0.1",
+  "description": "mock-with-proxy",
   "main": "dist/index.js",
-  "module": "dist/index.es.js",
+  "module": "dist/index.es.mjs",
   "types": "dist/types/index.d.ts",
   "scripts": {
     "build": "rollup -c",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sonofmagic/npm-lib-template.git"
+    "url": "git+https://github.com/sonofmagic/mock-with-proxy.git"
   },
   "files": [
     "dist"
@@ -22,13 +22,20 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "keywords": [],
+  "keywords": [
+    "mock",
+    "proxy",
+    "api",
+    "recursive",
+    "test",
+    "unit test"
+  ],
   "author": "SonOfMagic <qq1324318532@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sonofmagic/npm-lib-template/issues"
+    "url": "https://github.com/sonofmagic/mock-with-proxy/issues"
   },
-  "homepage": "https://github.com/sonofmagic/npm-lib-template#readme",
+  "homepage": "https://github.com/sonofmagic/mock-with-proxy#readme",
   "devDependencies": {
     "@rollup/plugin-alias": "^3.1.8",
     "@rollup/plugin-commonjs": "^21.0.1",
